@@ -19,3 +19,6 @@ a = int(input("\nMasukkan ke index keberapa?: "))
 sisip = int(input("Masukkan data yang mau disisip: "))
 data.insert(a, sisip)
 print("Data yang disisipkan: ", data)
+
+b = int(input("Masukkan data yang mau dihitung jumlahnya: "))
+print(data.count(b))
