@@ -14,3 +14,8 @@ print("Data yang sudah diinputkan: ", data)
 print()
 data.sort()
 print("Data yang sudah diurutkan: ", data)
+
+a = int(input("\nMasukkan ke index keberapa?: "))
+sisip = int(input("Masukkan data yang mau disisip: "))
+data.insert(a, sisip)
+print("Data yang disisipkan: ", data)
